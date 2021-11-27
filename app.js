@@ -349,6 +349,11 @@ const timeZones = [
     "Pacific/Wallis",
   ],
   input = document.querySelector("input");
+let i = 1
+timeZones.forEach((timeZone) => {
+  console.log(`${i}. ${timeZone.replace(/_/g, " ")}`)
+  i++
+})
 setInterval(() => {
   input.value = input.value.toLowerCase().trim().split(/\s/g).map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
   let match = timeZones.filter((timeZone) => timeZone.includes(input.value.replace(/\s/g, "_")))[0];
