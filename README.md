@@ -1,9 +1,9 @@
-![Logo for XOtic](./favicon.ico) Timey
-<p>A Web-Based TicTacToe Game implemented using Vanilla JS</p>
+![Logo for Timey](./favicon.ico) Timey
+<p>A Web-Based Utility that helps to check Time in every Time Zone!</p>
 
 ## Getting Started
 
-You can either clone this Repository to your Local Environment or simply open Timey online on [GitHub Pages](https://CodrShiv.GitHub.io/Timey/index.html)
+You can either clone this Repository to your Local Environment or simply open Timey Hosted Online on [GitHub Pages](https://CodrShiv.GitHub.io/Timey/index.html)
 
 
 ### Installation to Local Environment
