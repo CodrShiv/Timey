@@ -1,4 +1,5 @@
-![Logo for Timey](./favicon.ico) Timey
+![Logo for Timey](./favicon.ico) 
+# Timey
 <p>A Web-Based Utility that helps to check Time in every Time Zone!</p>
 
 ## Getting Started
