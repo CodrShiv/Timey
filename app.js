@@ -356,7 +356,7 @@ timeZones.forEach((timeZone) => {
 })
 setInterval(() => {
   input.value = input.value.toLowerCase().trim().split(/\s/g).map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
-  let match = timeZones.filter((timeZone) => timeZone.includes(input.value.replace(/\s/g, "_")))[0];
+  let match = timeZones.find((timeZone) => timeZone.includes(input.value.replace(/\s/g, "_")));
   if (!input.value || !match) return;
   let fullTime = new Date().toLocaleString("en-US", { timeZone: match }).split(",");
   document.querySelector("#zone").innerHTML = match.replace(/_/g, " ").split("/").reverse().join(", ");
