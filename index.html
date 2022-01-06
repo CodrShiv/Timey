@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Timey</title>
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/awesomplete.js" defer></script>
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link rel="stylesheet" href="./assets/styles/awesomplete.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#DA532C" />
+    <meta name="theme-color" content="#DE9C63" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Timey</title>
-    <script src="./app.js" defer></script>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">  
   </head>
   <body>
-    <h1>Timey</h1>
-    <main>
-      <div>
-        <label for="time-zone">
-          <span>Time Zone</span>
-          <input id="time-zone" value="Kolkata"/>
-        </label>
+    <div id="hero">
+      <h1 id="heading">All you need is Time</h1>
+      <input
+        list="cities"
+        name="city"
+        id="city"
+        class="awesomplete"
+        placeholder="Enter a City/Country"
+      />
+    </div>
+    <div id="clock_container">
+      <div id="clock">
+        <div id="date"></div>
+        <div id="time"></div>
       </div>
-      <h1 id="clock">
-        <span id="time"></span>
-        <span id="date"></span>
-        <span id="zone"></span>
-      </h1>
-    </main>
+      <div id="location"></div>
+    </div>
   </body>
 </html>
