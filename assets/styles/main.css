@@ -18,7 +18,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background: linear-gradient(-40deg, rgba(0, 0, 0, 0.5) 0%, transparent),
-    url(/assets/img/ancient_map.png);
+    url(../img/ancient_map.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
